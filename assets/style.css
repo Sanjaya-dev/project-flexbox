@@ -1,0 +1,39 @@
+* {
+  font-family: "Lexend Deca" sans-serif, system-ui;
+}
+
+/* Home */
+
+.flex-container {
+  margin: 0 121px;
+  padding: 0 128px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container h2,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  padding-top: 24px;
+}
+
+.col {
+  width: 512px;
+  height: 320px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+}
+
+.person img {
+  height: 100%;
+}
