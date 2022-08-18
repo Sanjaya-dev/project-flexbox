@@ -1,27 +1,51 @@
 * {
-  font-family: "Lexend Deca" sans-serif, system-ui;
+  font-family: "Montserrat", Lexend Deca, sans-serif, system-ui;
+}
+
+body {
+  margin: 0px;
+  background-color: #171717;
 }
 
 /* Home */
 
-.flex-container {
-  margin: 0 121px;
+/*Header-container*/
+
+.container {
+  margin: 0 180px;
   padding: 0 128px;
 }
 
-.row {
+.header-container {
   display: flex;
-  justify-content: space-between;
+  gap: 65px;
 }
 
-.flex-container h2,
-h1 {
+.col h2,
+h1,
+p {
   padding: 0;
   margin: 0;
+  color: white;
 }
 
-.row {
-  padding-top: 24px;
+.col h1 {
+  font-size: 48px;
+}
+
+.col h2 {
+  font-size: 20px;
+}
+
+.col p {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.col {
+  padding: 24px 0px;
 }
 
 .col {
@@ -36,4 +60,107 @@ h1 {
 
 .person img {
   height: 100%;
+}
+
+.button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #4c566a;
+  width: 153px;
+  height: 44px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding: 16px 0;
+  width: 170px;
+}
+
+.icon i {
+  font-size: 30px;
+  color: white;
+}
+
+/*card-home*/
+
+section {
+  margin-top: 70px;
+}
+
+.card-home h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.card-col a {
+  display: flex;
+  flex-direction: column;
+  width: 495px;
+  height: 610px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #262626;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: #333333 2px solid;
+}
+
+.card-col h3 {
+  font-size: 34px;
+  color: white;
+  margin: 24px 0px;
+}
+
+.card-col p {
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+}
+
+.header-card {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  color: white;
+}
+
+.f-bold {
+  font-weight: 700;
+}
+
+.space-8 {
+  margin: 0 8px;
+}
+
+.img-box {
+  margin-top: 20px;
+  width: 495px;
+  height: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  border: #333333 2px solid;
+}
+
+.card-col {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 65px;
 }
